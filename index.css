@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(estacionamento.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.navbar-brand {
+    font-size: 0.5em !important;
+}
+
+#logo {
+    height: 50px;
+    width: 120px;
+    right: 0;
+    margin-right: 5%;
+}
+
+.login {
+    right: 0;
+    margin-right: 5% !important;
+}

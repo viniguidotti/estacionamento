@@ -1,0 +1,11 @@
+# Ativar a engine de reescrita
+RewriteEngine on
+ 
+# Se NÃO for um arquivo executar as regras
+RewriteCond %{REQUEST_FILENAME} !-f
+ 
+# Se NÃO for um diretório executar as regras
+RewriteCond %{REQUEST_FILENAME} !-d
+ 
+# Redireciona para index.php se antender as condições acima
+RewriteRule ^(.*)$ index.html
