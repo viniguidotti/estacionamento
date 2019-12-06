@@ -40,6 +40,6 @@ $user = $users[0];
  
 session_start();
 $_SESSION['logged_in'] = true;
-$_SESSION['id_usuario'] = $user['id_usuario'];
+$_SESSION['ID'] = $user['ID'];
 
 header('Location: index1.php');
