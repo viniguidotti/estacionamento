@@ -18,9 +18,11 @@ if (empty($login) || empty($senha))
  
 $PDO = db_connect();
  
-$sql = "SELECT ID FROM usuarios WHERE login = :login AND senha = :senha";
+$sql = "SELECT ID FROM usuarios WHERE user = :login AND senha = :senha";
 $stmt = $PDO->prepare($sql);
- 
+
+echo $login . $senha;
+
 $stmt->bindParam(':login', $login);
 $stmt->bindParam(':senha', $senha);
  

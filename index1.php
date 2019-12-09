@@ -37,24 +37,24 @@ session_start();
                     </li>
                     </li>
                     <li class="nav-item active">
-                        <a class="btn btn btn-primary mg-3" href="#">Planos<span class="sr-only">(current)</span></a>
+                        <a class="btn btn btn-primary mg-3" href="/planos.html">Planos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn btn-primary mg-3" href="#" role="button">Movimento diário</a>
+                        <a class="btn btn btn-primary mg-3" href="/movdiario.html" role="button">Movimento diário</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn btn-primary mg-3" href="#">Cadastrar cliente</a>
+                        <a class="btn btn btn-primary mg-3" href="/cadastrocliente.html">Cadastrar cliente</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn btn-primary mg-3" href="#" aria-disabled="true">Usuários</a>
+                        <a class="btn btn btn-primary mg-3" href="/usuarios.html" aria-disabled="true">Usuários</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="btn btn btn-primary mg-3" href="#" aria-disabled="true">Consulta e Inclusão de serviços</a>
+                        <a class="btn btn btn-primary mg-3" href="/servicos.html" aria-disabled="true">Consulta e Inclusão de serviços</a>
                     </li>
 
                     <div class="absolute r-0 mg-8">
-                        <a class="btn btn btn-primary mg-3 login" href="#" aria-disabled="true">Log-out</a>
+                        <a class="btn btn btn-primary mg-3 login" href="logout.php" aria-disabled="true">Sair</a>
                     </div>
 
                     <h5 class="absolute r-0 mg-7">

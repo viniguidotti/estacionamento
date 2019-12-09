@@ -1,8 +1,8 @@
 <?php
  
 // constantes com as credenciais de acesso ao banco MySQL
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
+define('DB_HOST', '3.136.108.11');
+define('DB_USER', 'vinimoraes321');
 define('DB_PASS', 'vini2308');
 define('DB_NAME', 'estacionamento');
  

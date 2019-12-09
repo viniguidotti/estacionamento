@@ -13,10 +13,10 @@ function db_connect()
 /**
  * Cria o hash da senha, usando MD5 e SHA-1
  */
-function make_hash($str)
+/**function make_hash($str)
 {
     return sha1(md5($str));
-}
+}*/
  
  
 /**
