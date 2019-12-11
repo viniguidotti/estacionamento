@@ -13,15 +13,12 @@ if (empty($login) || empty($senha))
     exit;
 }
  
-// cria o hash da senha
-//$senhaHash = make_hash($senha);
- 
 $PDO = db_connect();
  
 $sql = "SELECT ID FROM usuarios WHERE user = :login AND senha = :senha";
-$stmt = $PDO->prepare($sql);
 
-echo $login . $senha;
+$senha = sha1($senha);
+$stmt = $PDO->prepare($sql);
 
 $stmt->bindParam(':login', $login);
 $stmt->bindParam(':senha', $senha);
