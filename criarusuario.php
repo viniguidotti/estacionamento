@@ -1,3 +1,14 @@
+<?php
+include 'functions.php';
+require 'config.php';
+session_start();
+
+if (!isLoggedIn()) {
+    echo "<script>alert('Faça Login para acessar o sistema.');location.href=\"login.html\";</script>";
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 

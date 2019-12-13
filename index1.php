@@ -46,7 +46,7 @@ session_start();
                         <a class="btn btn btn-primary mg-3" href="/cadastrocliente.html">Cadastrar cliente</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn btn-primary mg-3" href="/usuarios.html" aria-disabled="true">Usuários</a>
+                        <a class="btn btn btn-primary mg-3" href="/usuarios.php" aria-disabled="true">Usuários</a>
                     </li>
 
                     <li class="nav-item">
