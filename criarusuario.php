@@ -7,6 +7,8 @@ if (!isLoggedIn()) {
     echo "<script>alert('Faça Login para acessar o sistema.');location.href=\"login.html\";</script>";
 }
 
+
+
 ?>
 
 <!DOCTYPE html>
@@ -14,12 +16,10 @@ if (!isLoggedIn()) {
 
 <head>
 
-    <meta name="viewport"
-        content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, viewport-fit=cover">
     <meta charset="utf-8">
     <title>Usuários - VGM Parking</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="/usuarios.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
 
@@ -29,8 +29,7 @@ if (!isLoggedIn()) {
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -53,6 +52,7 @@ if (!isLoggedIn()) {
             <input class="rounded" type="password" name="senha" placeholder="Entre a senha">
             <input type="submit" name="submit" value="Cadastrar">
         </form>
+
     </div>
 
 </body>
